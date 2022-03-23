@@ -1,0 +1,469 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC847 Q?
+U 1 1 61FC5A75
+P 5390 4230
+F 0 "Q?" H 5581 4276 50  0000 L CNN
+F 1 "BC847" H 5581 4185 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5590 4155 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 5390 4230 50  0001 L CNN
+	1    5390 4230
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Microphone MK?
+U 1 1 61FC6FC4
+P 7435 3905
+F 0 "MK?" H 7305 3859 50  0000 R CNN
+F 1 "Microphone" H 7305 3950 50  0000 R CNN
+F 2 "" V 7435 4005 50  0001 C CNN
+F 3 "~" V 7435 4005 50  0001 C CNN
+	1    7435 3905
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61FC7492
+P 6805 4230
+F 0 "C?" V 6576 4230 50  0000 C CNN
+F 1 "0.47 uF" V 6667 4230 50  0000 C CNN
+F 2 "" H 6805 4230 50  0001 C CNN
+F 3 "~" H 6805 4230 50  0001 C CNN
+	1    6805 4230
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61FC7A36
+P 5670 2930
+F 0 "D?" H 5663 2675 50  0000 C CNN
+F 1 "LED" H 5663 2766 50  0000 C CNN
+F 2 "" H 5670 2930 50  0001 C CNN
+F 3 "~" H 5670 2930 50  0001 C CNN
+	1    5670 2930
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Speaker LS?
+U 1 1 61FC7E0C
+P 7395 2830
+F 0 "LS?" H 7565 2826 50  0000 L CNN
+F 1 "Speaker" H 7565 2735 50  0000 L CNN
+F 2 "" H 7395 2630 50  0001 C CNN
+F 3 "~" H 7385 2780 50  0001 C CNN
+	1    7395 2830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4007 D?
+U 1 1 61FC864B
+P 4025 3950
+F 0 "D?" H 4025 4167 50  0000 C CNN
+F 1 "1N4007" H 4025 4076 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4025 3775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4025 3950 50  0001 C CNN
+	1    4025 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 61FC8F35
+P 4665 4425
+F 0 "C?" H 4753 4471 50  0000 L CNN
+F 1 "10 uF 25V" H 4753 4380 50  0000 L CNN
+F 2 "" H 4665 4425 50  0001 C CNN
+F 3 "~" H 4665 4425 50  0001 C CNN
+	1    4665 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61FD2921
+P 4665 3325
+F 0 "R?" H 4724 3371 50  0000 L CNN
+F 1 "220" H 4724 3280 50  0000 L CNN
+F 2 "" H 4665 3325 50  0001 C CNN
+F 3 "~" H 4665 3325 50  0001 C CNN
+	1    4665 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61FD2A98
+P 4665 3690
+F 0 "R?" H 4724 3736 50  0000 L CNN
+F 1 "220" H 4724 3645 50  0000 L CNN
+F 2 "" H 4665 3690 50  0001 C CNN
+F 3 "~" H 4665 3690 50  0001 C CNN
+	1    4665 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61FD7B53
+P 4665 4055
+F 0 "R?" H 4724 4101 50  0000 L CNN
+F 1 "220" H 4724 4010 50  0000 L CNN
+F 2 "" H 4665 4055 50  0001 C CNN
+F 3 "~" H 4665 4055 50  0001 C CNN
+	1    4665 4055
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4665 4155 4665 4325
+Wire Wire Line
+	4665 3425 4665 3495
+$Comp
+L Device:R_Small R?
+U 1 1 61FE2912
+P 5315 2930
+F 0 "R?" V 5119 2930 50  0000 C CNN
+F 1 "1K" V 5210 2930 50  0000 C CNN
+F 2 "" H 5315 2930 50  0001 C CNN
+F 3 "~" H 5315 2930 50  0001 C CNN
+	1    5315 2930
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5415 2930 5520 2930
+Wire Wire Line
+	4665 4525 4665 4665
+Wire Wire Line
+	4665 4665 5290 4665
+Wire Wire Line
+	5290 4665 5290 4430
+Wire Wire Line
+	4025 3800 4025 2930
+Wire Wire Line
+	4025 2930 5215 2930
+$Comp
+L Switch:SW_DPST_x2 SW?
+U 1 1 61FF374A
+P 5715 4455
+F 0 "SW?" V 5761 4367 50  0000 R CNN
+F 1 "SB1" V 5670 4367 50  0000 R CNN
+F 2 "" H 5715 4455 50  0001 C CNN
+F 3 "~" H 5715 4455 50  0001 C CNN
+	1    5715 4455
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5290 4665 5715 4665
+Wire Wire Line
+	5715 4665 5715 4655
+Connection ~ 5290 4665
+Wire Wire Line
+	5590 4230 5715 4230
+Wire Wire Line
+	5715 4230 5715 4255
+$Comp
+L Device:R_Small R?
+U 1 1 61FF6F09
+P 6105 4435
+F 0 "R?" H 6164 4481 50  0000 L CNN
+F 1 "12K" H 6164 4390 50  0000 L CNN
+F 2 "" H 6105 4435 50  0001 C CNN
+F 3 "~" H 6105 4435 50  0001 C CNN
+	1    6105 4435
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6105 4335 6105 4230
+Wire Wire Line
+	6105 4230 5715 4230
+Connection ~ 5715 4230
+Wire Wire Line
+	5715 4665 6105 4665
+Wire Wire Line
+	6105 4665 6105 4535
+Connection ~ 5715 4665
+$Comp
+L Device:CP_Small C?
+U 1 1 61FFB6FD
+P 6465 4425
+F 0 "C?" H 6553 4471 50  0000 L CNN
+F 1 "10 uF 25V" H 6553 4380 50  0000 L CNN
+F 2 "" H 6465 4425 50  0001 C CNN
+F 3 "~" H 6465 4425 50  0001 C CNN
+	1    6465 4425
+	1    0    0    -1  
+$EndComp
+Connection ~ 6105 4230
+Wire Wire Line
+	6465 4525 6465 4665
+Wire Wire Line
+	6465 4665 6105 4665
+Connection ~ 6105 4665
+$Comp
+L Device:R_Small R?
+U 1 1 61FFCF34
+P 7095 4435
+F 0 "R?" H 7154 4481 50  0000 L CNN
+F 1 "12K" H 7154 4390 50  0000 L CNN
+F 2 "" H 7095 4435 50  0001 C CNN
+F 3 "~" H 7095 4435 50  0001 C CNN
+	1    7095 4435
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7095 4335 7095 4230
+Wire Wire Line
+	6105 4230 6595 4230
+Connection ~ 6595 4230
+Wire Wire Line
+	6595 4230 6705 4230
+Wire Wire Line
+	6465 4665 7095 4665
+Wire Wire Line
+	7095 4665 7095 4535
+Connection ~ 6465 4665
+Wire Wire Line
+	6905 4230 7095 4230
+$Comp
+L Device:C_Small C?
+U 1 1 62002EC0
+P 6805 3870
+F 0 "C?" V 6576 3870 50  0000 C CNN
+F 1 "0.47 uF" V 6667 3870 50  0000 C CNN
+F 2 "" H 6805 3870 50  0001 C CNN
+F 3 "~" H 6805 3870 50  0001 C CNN
+	1    6805 3870
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6905 3870 7095 3870
+Wire Wire Line
+	7095 3870 7095 4230
+Connection ~ 7095 4230
+Wire Wire Line
+	6705 3870 6595 3870
+Wire Wire Line
+	6595 3870 6595 4230
+$Comp
+L Device:R_Small R?
+U 1 1 6200B5DA
+P 6085 3495
+F 0 "R?" V 5889 3495 50  0000 C CNN
+F 1 "2K" V 5980 3495 50  0000 C CNN
+F 2 "" H 6085 3495 50  0001 C CNN
+F 3 "~" H 6085 3495 50  0001 C CNN
+	1    6085 3495
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6200BCE6
+P 6085 4110
+F 0 "R?" V 5889 4110 50  0000 C CNN
+F 1 "100K" V 5980 4110 50  0000 C CNN
+F 2 "" H 6085 4110 50  0001 C CNN
+F 3 "~" H 6085 4110 50  0001 C CNN
+	1    6085 4110
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6200C263
+P 6085 3820
+F 0 "R?" V 5889 3820 50  0000 C CNN
+F 1 "24K" V 5980 3820 50  0000 C CNN
+F 2 "" H 6085 3820 50  0001 C CNN
+F 3 "~" H 6085 3820 50  0001 C CNN
+	1    6085 3820
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6185 3820 6465 3820
+Wire Wire Line
+	6465 3820 6465 4110
+Wire Wire Line
+	6185 4110 6465 4110
+Connection ~ 6465 4110
+Wire Wire Line
+	6465 4110 6465 4325
+Wire Wire Line
+	5715 4230 5715 4110
+Wire Wire Line
+	5715 3820 5985 3820
+Wire Wire Line
+	5715 4110 5985 4110
+Connection ~ 5715 4110
+Wire Wire Line
+	5715 4110 5715 3820
+Wire Wire Line
+	6185 3495 7435 3495
+Wire Wire Line
+	7435 3495 7435 3705
+Wire Wire Line
+	7095 4230 7435 4230
+Wire Wire Line
+	7435 4230 7435 4105
+Wire Wire Line
+	4665 3790 4665 3875
+Wire Wire Line
+	5290 3495 5985 3495
+Wire Wire Line
+	5290 3495 5290 4030
+Wire Wire Line
+	5290 3495 4665 3495
+Connection ~ 5290 3495
+Connection ~ 4665 3495
+Wire Wire Line
+	4665 3495 4665 3590
+Wire Wire Line
+	4665 3875 5030 3875
+Wire Wire Line
+	5030 3875 5030 3185
+Wire Wire Line
+	5030 3185 5845 3185
+Wire Wire Line
+	5845 3185 5845 2930
+Wire Wire Line
+	5845 2930 5820 2930
+Connection ~ 4665 3875
+Wire Wire Line
+	4665 3875 4665 3955
+$Comp
+L Device:C_Small C?
+U 1 1 62042EFD
+P 6630 2875
+F 0 "C?" H 6538 2829 50  0000 R CNN
+F 1 "0.47 uF" H 6538 2920 50  0000 R CNN
+F 2 "" H 6630 2875 50  0001 C CNN
+F 3 "~" H 6630 2875 50  0001 C CNN
+	1    6630 2875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7195 2830 7170 2830
+Wire Wire Line
+	6630 2975 6630 3185
+Wire Wire Line
+	7170 3185 7170 2930
+Wire Wire Line
+	7170 2930 7195 2930
+Wire Wire Line
+	5845 3185 6630 3185
+Connection ~ 5845 3185
+Wire Wire Line
+	4665 2580 4665 3225
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 62063EF7
+P 4345 2340
+F 0 "SW?" H 4345 2015 50  0000 C CNN
+F 1 "SW2" H 4345 2106 50  0000 C CNN
+F 2 "" H 4345 2340 50  0001 C CNN
+F 3 "~" H 4345 2340 50  0001 C CNN
+	1    4345 2340
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4545 2240 4665 2240
+Wire Wire Line
+	4665 2240 4665 2580
+Connection ~ 4665 2580
+Wire Wire Line
+	4025 2930 4025 2340
+Wire Wire Line
+	4025 2340 4145 2340
+Connection ~ 4025 2930
+$Comp
+L Device:R_Small R?
+U 1 1 6206C35A
+P 4825 2440
+F 0 "R?" V 4629 2440 50  0000 C CNN
+F 1 "51" V 4720 2440 50  0000 C CNN
+F 2 "" H 4825 2440 50  0001 C CNN
+F 3 "~" H 4825 2440 50  0001 C CNN
+	1    4825 2440
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4545 2440 4725 2440
+$Comp
+L Switch:SW_DPST_x2 SW?
+U 1 1 62071EEF
+P 4420 4665
+F 0 "SW?" H 4420 4900 50  0000 C CNN
+F 1 "SW1" H 4420 4809 50  0000 C CNN
+F 2 "" H 4420 4665 50  0001 C CNN
+F 3 "~" H 4420 4665 50  0001 C CNN
+	1    4420 4665
+	1    0    0    -1  
+$EndComp
+Connection ~ 4665 4665
+Wire Wire Line
+	4620 4665 4665 4665
+Wire Wire Line
+	4150 4665 4220 4665
+Wire Wire Line
+	4150 4210 4395 4210
+Wire Wire Line
+	4395 4210 4395 3875
+Wire Wire Line
+	4395 3875 4665 3875
+Wire Wire Line
+	4150 4210 4150 4665
+Wire Wire Line
+	6630 2580 6630 2775
+Wire Wire Line
+	7170 2580 7170 2830
+Connection ~ 6630 2580
+Wire Wire Line
+	6630 2580 4665 2580
+Connection ~ 6630 3185
+Wire Wire Line
+	6630 2580 7170 2580
+Wire Wire Line
+	6630 3185 7170 3185
+$Comp
+L power:GND #PWR?
+U 1 1 620A6CA0
+P 5020 2440
+F 0 "#PWR?" H 5020 2190 50  0001 C CNN
+F 1 "GND" V 5025 2312 50  0000 R CNN
+F 2 "" H 5020 2440 50  0001 C CNN
+F 3 "" H 5020 2440 50  0001 C CNN
+	1    5020 2440
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4925 2440 5020 2440
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 620AF711
+P 3735 4405
+F 0 "J?" H 3843 4586 50  0000 C CNN
+F 1 "INPUT" H 3843 4495 50  0000 C CNN
+F 2 "" H 3735 4405 50  0001 C CNN
+F 3 "~" H 3735 4405 50  0001 C CNN
+	1    3735 4405
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 4100 4025 4405
+Wire Wire Line
+	4025 4405 3935 4405
+Wire Wire Line
+	3935 4505 4055 4505
+Wire Wire Line
+	4055 4505 4055 4665
+Wire Wire Line
+	4055 4665 4150 4665
+Connection ~ 4150 4665
+$EndSCHEMATC
